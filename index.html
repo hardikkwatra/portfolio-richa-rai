@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <!-- To normalize same behavior across all browsers, use the following code: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- To use the font awesome icons, use the following code: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    
+
+</head>
+    
+
+<body style="background-color: black;">
+    
+
+
+
+    <header>
+
+
+
+
+        <div class="logo">
+            <img src="img/Richa-logo.png" alt="">
+        </div>
+        <!-- For accessibility, aria-label is used for the logo. -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="margin-left: 30vw;">
+        <div>
+            <h1 style="margin-top: 10vh; margin-left: 2vw; color: aquamarine;">HELLO WORLD</h1>
+        </div>
+
+
+        <div>
+            <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2">
+                <img onclick="Downfunction()" alt="Arrow Down Icon" src="img/arrow1.png"
+                    style=" margin-right: 15vw;"></a>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" style="color: aqua;" id="section2">
+            Hi, I am <strong style="color: aliceblue;">Richa Rai</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Aspiring SDE</p>
+        <img src="img/Richa1.jpg" alt="a picture of Richa smiling" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Skills</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Cloud</h3>
+                <p>AWS
+                <p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Machine Learning </h3>
+                <p>Machine learning models, Tensorflow models ,Keras</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Others</h3>
+                <p>c++,java,Html,Css,Sql</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about" style="color: aliceblue;">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p style="color: aliceblue;">I am Currently 3rd year B.tech computer science specialisation in Artificial
+                intelligence and Machine
+                learning student at VIT Bhopal University.</p>
+            <p style="color: aliceblue;">I am a person who is very passionate about learning new things and bettering
+                myself. I am always looking
+                for new opportunities to grow and develop my skills. I am a hard worker and I always give 100% to
+                everything that I do.I am a team player and I am always willing to help others. I am a good communicator
+                and I am always willing to share my knowledge with others.</p>
+        </div>
+
+        <img src="img/Richa2.jpg" alt="Richa smiling" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+
+
+
+            <div style="margin-right: 50%;">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/Richaa15/Anemia-Detection-Model" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                <h3>Anemia Detection Model</h3>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+            <div style="margin-left: 50%; margin-top: 1%;">
+
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/Richaa15/Attendance-tracking-system.git" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                <h3>Automated Attendance and Management System </h3>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+            <div style="margin-right: 50%;">
+
+                <!-- Portfolio item 03 -->
+                <a href="https://github.com/Richaa15/SmartBridge-Externship.git" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                <h3>Crop Prediction Using Machine Learning</h3>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="mailto:richa18.rai@gmail.com" class="footer__link">richa18.rai@gmail.com</a>
+        <title>Media panel</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <div class="social">
+                <h2 class="social_media">Social Media</h2>
+                <button class="icon-btn linkedin">
+                    <a class="link" href="https://www.linkedin.com/in/richa-rai-99123a234/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+
+                    <button class="icon-btn instagram">
+                        <a class="link" href="https://www.instagram.com/_richa.rai_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <button class="icon-btn github">
+                            <a class="link" href="https://github.com/Richaa15" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+            </div>
+
+
+
+
+
+
+
+        </body>
+
+    </footer>
+    <script src="app/index.js"></script>
+</body>
+
+</html>
